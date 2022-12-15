@@ -1,1 +1,2 @@
-# Alx Collaboration Task\nTasks on stacks and Queue in C programming language
+# Alx Collaboration Task
+Tasks on stacks and Queue in C programming language by [Ogunbona Jesutofunmi](https://github.com/Dr-Virpid) and [Teddyyoung](https://github.com/Teddyoung)
