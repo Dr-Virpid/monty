@@ -4,10 +4,8 @@
  * get_pint - function that prints the top element on the stack
  * @stack: pointer to head of the stack
  * @line_number: where the instruction appears
- * Description: 1. pint
- * Return: see below
- * 1. upon success, nothing
- * 2. upon fail, EXIT_FAILURE
+ *
+ * Return: EXIT_FAILURE on failure
  */
 void get_pint(stack_t **stack, unsigned int line_number)
 {

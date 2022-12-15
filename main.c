@@ -1,15 +1,13 @@
 #include "monty.h"
 
-/**
- *  main - Main
- *
- *  @argc: Number of args
- *
- *  @argv: Command line args
- *
- *  Return: Void
- */
 
+/**
+ * main - simulate a monty script
+ * @argc: Number of args
+ * @argv: argument list
+ *
+ * Return: Void
+ */
 int main(int argc, char *argv[])
 {
 	stack_t *head = NULL;

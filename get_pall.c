@@ -1,26 +1,24 @@
 #include "monty.h"
 
 /**
- * get_pall - function that prints all elements on the stack
+ * get_pall - prints out all elements in the stack
+ *
  * @stack: pointer to head of the stack
  * @line_number: where the instruction appears
- * Description: 0. push, pall
- * Return: see below
- * 1. upon success, nothing
- * 2. upon fail, EXIT_FAILURE
+ * Return: EXIT_FAILURE if it fails
  */
 void get_pall(stack_t **stack, unsigned int line_number)
 {
-	stack_t *current;
+	stack_t *node;
 
 	(void)line_number;
 
-	current = *stack;
+	node = *stack;
 
-	while (current != NULL)
+	while (node != NULL)
 	{
-		printf("%d", current->n);
-		current = current->next;
+		printf("%d", node->n);
+		node = node->next;
 		printf("\n");
 	}
 }
