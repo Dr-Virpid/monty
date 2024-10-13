@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * get_pop - pops/remove the top element of the stack
+ * get_pop - removes the top element of the stack
  * @stack: pointer to the top of the stack
  * @line_number: where the line number appears
  *
