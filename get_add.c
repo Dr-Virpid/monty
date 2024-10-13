@@ -6,8 +6,8 @@
  * @line_number: where the line number appears
  * Description: 4. add
  * Return: see below
- * 1. upon success, nothing
- * 2. upon fail, EXIT_FAILURE
+ * 1. upon success, return nothing/void
+ * 2. upon failure, EXIT_FAILURE
  */
 void get_add(stack_t **stack, unsigned int line_number)
 {
